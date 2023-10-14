@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/sheet.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="text-center pt-5">Cruds system</h1>
+        <div class="form pt-5 pb-5">
+            <form id="form">
+                <label class="pb-2 label" for="name">product Name</label>
+                <input class="mb-4 name" type="text" id="name" name="prductName">
+
+                <label class="pb-2 label" for="price">product Price</label>
+                <input class="mb-4 price" type="number" id="price" name="prductPrice">
+
+                <label class="pb-2 label" for="category">product category</label>
+                <input class="mb-4 category" type="text" id="category" name="prductCategory">
+
+                <label class="pb-2 label" for="desc">product Desc</label>
+                <input class="mb-4 desc" type="text" id="desc" name="prducDesc">
+
+                <label class="pb-2 label" for="extra">How many times do you want 
+                                                    to add this product?</label>
+                <input class="mb-4 desc" type="number" id="extra" name="extraPrduct" value="1">
+            </form>
+
+            <div class="btns">
+                <button class="add btn btn-danger">Add product</button>
+                <button class="delete btn btn-primary">Delete all</button>
+            </div>
+        </div>
+        <div class="text"></div>
+        <div class="table">
+            <table class="table">
+                <thead id="head">
+                </thead>
+                <tbody id="row">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="./js/style.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

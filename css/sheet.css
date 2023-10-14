@@ -1,0 +1,19 @@
+.container form{display: flex; flex-direction: column}
+
+.container form button{width: fit-content}
+
+.container .table {
+    background-color: black !important;
+    color: rgba(255, 255, 255, 0.702) !important
+}
+
+.container .table th{text-align: center}
+
+.container .table tbody th{padding-top: 20px !important}
+
+.container .warning{
+    color:red;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px
+}
